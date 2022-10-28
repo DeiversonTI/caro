@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: rgb(8, 144, 207);
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 10px;
+}
+
+.box__01{
+    
+    display: block;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(2, 64, 116);
+
+}
+.box__01 .b1{
+    font-size: 1.6em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.box__01 .b2 a img{
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.box__01 .b2{
+    padding-top: 20px;
+    text-align: center;
+}
+.box__01 .b2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
